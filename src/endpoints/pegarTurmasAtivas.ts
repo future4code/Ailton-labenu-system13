@@ -1,4 +1,4 @@
-import getTurmasAtivas from "../data/getTurmasAtivas";
+import getTurmasAtivas from "../data/queries/getTurmasAtivas";
 import { Request, Response } from "express";
 
 export async function pegarTurmasAtivas(req: Request, res: Response) {
