@@ -1,5 +1,5 @@
-import insertTurma from "../data/insertTurma";
-import getTurmas from "../data/getTurmas";
+import insertTurma from "../data/queries/insertTurma";
+import getTurmas from "../data/queries/getTurmas";
 import { Request, Response } from "express";
 
 export async function criarTurma(req: Request, res: Response) {

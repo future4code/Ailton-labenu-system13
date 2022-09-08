@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
-import updateModuloTurma from "../data/updateModuloTurma";
+import { isCallLikeExpression } from "typescript";
+import updateModuloTurma from "../data/queries/updateModuloTurma";
 
 export async function editarTurmaModulo(req: Request, res: Response) {
   try {
