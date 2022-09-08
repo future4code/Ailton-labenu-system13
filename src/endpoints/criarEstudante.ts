@@ -11,6 +11,7 @@ export default async function criarEstudante(req: Request, res: Response) {
       throw new Error(`Todos os parametros precisam estar preenchidos`);
     }
     const novaData = BRtoUS(data_nasc);
+    console.log(novaData)
     const novoAluno = {
       nome,
       email,
