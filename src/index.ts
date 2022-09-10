@@ -1,28 +1,26 @@
-import { criarTurma } from "./endpoints/criarTurma";
 import { app } from "./app";
-import { editarTurmaModulo } from "./endpoints/editarTurmaModulo";
-import { pegarTurmasAtivas } from "./endpoints/pegarTurmasAtivas";
-import criarEstudante from "./endpoints/criarEstudante";
-import buscarAlunoByNome from "./endpoints/buscarAlunoByNome";
-import mudarAlunoTurma from "./endpoints/mudarAlunoTurma";
-import criaDocente from "./endpoints/criaDocente";
-import buscarDocentes from "./endpoints/buscarDocentes";
-import editarDocenteTurma from "./endpoints/editarDocenteTurma";
+import { AlunoController } from "./endpoints/AlunoController";
+import { DocenteController } from "./endpoints/DocenteController";
+import { TurmaController } from "./endpoints/TurmaController";
 
-app.get("/turmas", pegarTurmasAtivas);
+const alunoController = new AlunoController()
+const docenteController = new DocenteController()
+const turmaController = new TurmaController()
 
-app.post("/criarTurma", criarTurma);
+app.get("/turmas", turmaController.pegarTumasAtivas);
 
-app.put("/editarTurma", editarTurmaModulo);
+app.post("/criarTurma", turmaController.criarTurma);
 
-app.post("/addAluno", criarEstudante);
+app.put("/editarTurma", turmaController.editarTurmaModulo);
 
-app.get("/aluno", buscarAlunoByNome);
+app.post("/addAluno", alunoController.criarAluno);
 
-app.put("/mudarTurma", mudarAlunoTurma);
+app.get("/aluno", alunoController.buscarAlunoByNome);
 
-app.post("/addDocente", criaDocente);
+app.put("/mudarTurma", alunoController.mudarAlunoTurma);
 
-app.get("/docentes", buscarDocentes);
+app.post("/addDocente", docenteController.criarDocente);
 
-app.put("/mudarTurmaDocente", editarDocenteTurma)
+app.get("/docentes", docenteController.buscarDocente);
+
+app.put("/editarTurmaDocente", docenteController.editarDocenteTurma)
