@@ -8,10 +8,10 @@ Dividido em:
 
 ### Turmas
 
-<span>Get Turmas<span>
-<span>PUT Editar Turma<span>
-<span>POST Adiciona Turma<span>
-<span>POST Adicionar Hobby<span>
+<p>Get Turmas<p>
+<p>PUT Editar Turma<p>
+<p>POST Adiciona Turma<p>
+<p>POST Adicionar Hobby<p>
 
 ### Alunos 
 
