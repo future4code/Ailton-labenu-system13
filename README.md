@@ -4,7 +4,7 @@ Link da documentação (https://documenter.getpostman.com/view/21551942/2s7YYoBm
 
 Essa API simula o sistema escolar da Labenu, com a relação de estudantes, seus hobbies, turmas, professores e suas especialidades.
 
-Dividido em:
+### Dividido em:
 
 ### Turmas
 
