@@ -8,21 +8,21 @@ Dividido em:
 
 ### Turmas
 
-<p>Get Turmas<p>
-<p>PUT Editar Turma<p>
-<p>POST Adiciona Turma<p>
-<p>POST Adicionar Hobby<p>
+<p>Get Turmas</p>
+<p>PUT Editar Turma</p>
+<p>POST Adiciona Turma</p>
+<p>POST Adicionar Hobby</p>
 
 ### Alunos 
 
-GET Buscar Aluno por nome
-PUT Mudar Aluno de Turma
-POST Adicionar Aluno
-POST Adicionar Hobby ao Aluno
+<p>GET Buscar Aluno por nome</p>
+<p>PUT Mudar Aluno de Turma</p>
+<p>POST Adicionar Aluno</p>
+<p>POST Adicionar Hobby ao Aluno</p>
 
 ### Docentes
 
-GET Get Docentes
-PUT Editar Turma Docente
-POST Adicionar Docente
-POST Adicionar Especialidade
+<p>GET Get Docentes</p>
+<p>PUT Editar Turma Docente</p>
+<p>POST Adicionar Docente</p>
+<p>POST Adicionar Especialidade</p>
