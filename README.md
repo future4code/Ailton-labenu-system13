@@ -6,21 +6,21 @@ Essa API simula o sistema escolar da Labenu, com a relação de estudantes, seus
 
 Dividido em:
 
-###Turmas
+### Turmas
 
 Get Turmas
 PUT Editar Turma
 POST Adiciona Turma
 POST Adicionar Hobby
 
-###Alunos 
+### Alunos 
 
 GET Buscar Aluno por nome
 PUT Mudar Aluno de Turma
 POST Adicionar Aluno
 POST Adicionar Hobby ao Aluno
 
-###Docentes
+### Docentes
 
 GET Get Docentes
 PUT Editar Turma Docente
