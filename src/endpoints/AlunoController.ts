@@ -60,6 +60,8 @@ export class AlunoController {
       res
         .status(201)
         .send(`Usuário alterado com sucesso para turma ${turma_id}`);
-    } catch (error: any) {}
+    } catch (error: any) {
+      res.status(res.statusCode || 500).send({ message: error.message })
+    }
   }
 }
